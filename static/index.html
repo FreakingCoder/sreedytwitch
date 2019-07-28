@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>TWITCH.TV SEARCH STREAM</title>
+</head>
+<body>
+
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdn.rawgit.com/botmonster/jquery-bootpag/master/lib/jquery.bootpag.min.js"></script>
+
+<link href="/twitch.css" rel="stylesheet" type="text/css"/>
+
+<div class="panel panel-default panel-dimensions" >
+	<div class="panel-heading panel-header-dimensions">
+		<input placeholder="Search Query..." id="searchInput"> <button id="searchBtn">Search</button>
+	</div>
+	<div class="panel-body">
+
+        <div class='page-flex'>
+
+            <div class='page-left-flex'>
+                <span>Total Results:</span><span id='totalGames'> </span>
+            </div>
+            <div class="page-right-flex">
+                <a style='text-decoration: none;' href='#'><span id="leftBtn">&#8592;</span></a>
+                <span id='currentPage'></span>
+                <a style='text-decoration: none' href='#'> <span id="rightBtn">&#8594;</span> </a>
+            </div>
+
+        </div>
+
+        <div class="divTable" id="cards"></div>
+
+	</div>
+</div>
+
+<script src="/twitch.js"></script>
+
+</body>
+</html>
