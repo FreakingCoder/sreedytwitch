@@ -1,4 +1,4 @@
-# TWITCH.TV SREAM Search
+# TWITCH.TV Stream Search
 
 ### Build and Run
 
