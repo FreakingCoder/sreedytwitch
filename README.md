@@ -12,4 +12,4 @@ Launch the Application
 
 
 
-![alt text](screenshot/TwitchSteamSearch.png)
+![TwitchStreamSearch](./screenshot/TwitchSteamSearch.png)
