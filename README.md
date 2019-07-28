@@ -3,18 +3,18 @@
 ### Build and Run
 
 Go to Home Directory
-###npm Install
+> npm Install
   
   Then
   
-###npm sart
+> npm sart
   
  Then
  
 Launch the Application
 
 
-###http://localhost:8080/
+> http://localhost:8080/
 
 
 
